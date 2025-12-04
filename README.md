@@ -1,4 +1,4 @@
-#  R Agents Portal - Next.js
+#  HR Agents Portal - Next.js
 
 A full-stack Next.js application for interacting with Salesforce AgentForce AI agents. Built with TypeScript, featuring integrated API routes for Salesforce integration, audio transcription, and JWT-based authentication.
 
