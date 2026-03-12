@@ -4,7 +4,7 @@ import HeroSection from "@/components/landing/HeroSection";
 import WorkshopStats from "@/components/landing/WorkshopStats";
 import BusinessUseCaseCard from "@/components/landing/BusinessUseCaseCard";
 import CustomerReferences from "@/components/landing/CustomerReferences";
-import PresentationSection from "@/components/landing/PresentationSection";
+
 import ReferenceMaterial from "@/components/landing/ReferenceMaterial";
 import { businessUseCases } from "@/data/businessUseCases";
 import { Button } from "@/components/ui/button";
@@ -75,7 +75,7 @@ const Landing = () => {
       </section>
 
       <CustomerReferences />
-      <PresentationSection />
+
       <ReferenceMaterial />
 
       {/* Try Agents Section */}
