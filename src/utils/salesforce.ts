@@ -99,7 +99,7 @@ export const fetchSalesforceAgents = async (): Promise<SalesforceAgent[]> => {
     }
 
     const query = encodeURIComponent(
-      "SELECT FIELDS(ALL) from BotDefinition WHERE AgentType = 'EinsteinServiceAgent' LIMIT 200",
+      "SELECT FIELDS(ALL) from BotDefinition WHERE AgentType IN ('EinsteinServiceAgent', 'AgentforceEmployeeAgent') LIMIT 200",
     );
     const url = `${instanceUrl}/services/data/v64.0/query/?q=${query}`;
 
